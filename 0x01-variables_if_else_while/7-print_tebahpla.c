@@ -10,10 +10,10 @@
 
 int main(void)
 {
-char x;
+	char n;
 
-for (x = 'z'; x >= 'a'; n--)
-putchar(x);
-putchar('\n');
-return (0);
+	for (n = 'z'; n >= 'a'; n--)
+		putchar(n);
+	putchar('\n');
+	return (0);
 }
