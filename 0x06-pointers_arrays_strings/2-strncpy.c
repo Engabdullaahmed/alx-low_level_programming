@@ -23,3 +23,4 @@ dest[x] = '\0';
 x++
 }
 return (dest);
+}
