@@ -25,5 +25,5 @@ break;
 }
 s++;
 }
-return (ptr);
+return (s);
 }
