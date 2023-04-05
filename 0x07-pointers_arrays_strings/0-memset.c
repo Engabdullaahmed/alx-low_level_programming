@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _memset() - function that is used to fill a block of memory with parti value
+ * _memset - function that is used to fill a block of memory with parti value
  * @s: pointer to put the constant
  * @b: is constant
  * @n: max bytes which use
  * Return: *s
  */
 
-char *_memset(char *s, char b, unsigned int n)
+char _memset(char *s, char b, unsigned int n)
 {
 
 unsigned int xz;
