@@ -13,7 +13,6 @@ int cnt = 0;
 while (*s != 0)
 {
 cnt++;
-}
-return (cnt  + 1 );
+cnt += _strlen_recursion(s + 1);
 
 }
