@@ -14,6 +14,6 @@ while (*s != 0)
 {
 cnt++;
 }
-return (cnt);
+return (cnt  + 1 );
 
 }
