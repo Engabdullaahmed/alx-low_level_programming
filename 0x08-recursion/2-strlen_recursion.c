@@ -13,6 +13,7 @@ int cnt = 0;
 while (*s != 0)
 {
 cnt++;
-return (cnt);
 }
+return (cnt);
+
 }
