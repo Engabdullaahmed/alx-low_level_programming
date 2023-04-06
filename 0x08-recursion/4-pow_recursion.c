@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * _pow_recursion - this return pow or x
+ * @x: base
+ * @y: take power
+ * Return: that return pow of int
+ */
+
+int _pow_recursion(int x, int y)
+{
+if (y < 0)
+{
+return (-1);
+}
+else if (y == 0 || y == 1)
+{
+return (1);
+}
+return (x * _pow_recursion(x, y - 1));
+}
