@@ -6,7 +6,7 @@
  * @val: squate root
  * Return: int
  */
-int _sqrt_recursion(int n, int val);
+int sqrt_recursion(int n, int val);
 int _sqrt_recursion(int n)
 {
 return (square(n, 1));
