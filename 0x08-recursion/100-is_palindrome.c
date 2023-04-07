@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * last_index -return last index of string
+ * last_index - return last index of string
  * @s: pointer of string
  * Return: int
 */
