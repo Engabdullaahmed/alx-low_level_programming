@@ -1,25 +1,24 @@
 #include "main.h"
 
 /**
- * print_line - print new line
- *
- *@n: num of char
-*/
+ * print_line - times to print
+ * @n: number  should be printed
+ */
 void print_line(int n)
 {
-int charlen = 1;
 if (n <= 0)
 {
 _putchar('\n');
 }
 else
 {
+int q;
 
-while (charlen <= n)
+for (q = 1; i <= n; i++)
 {
-charlen++;
 _putchar('_');
+}
 _putchar('\n');
 }
-}
+
 }
