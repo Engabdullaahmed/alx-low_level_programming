@@ -8,7 +8,7 @@
  * Return: transform int from string
 */
 
-int  _atoi(char *s);
+int _atoi(char *s);
 {
 
 unsigned int number = 0;
@@ -17,12 +17,15 @@ int hint = 1;
 do
 {
 if (*s == '-')
+{
 hint = hint * (-1);
+}
 else if (*s >= '0' && *s <= '9')
+{
 number =  (number * 10) + (*s - '0');
+}
 else if (number > 0)
 break;
-}
-while (*s++);
+}while (*s++);
 return (number * hint);
 }
