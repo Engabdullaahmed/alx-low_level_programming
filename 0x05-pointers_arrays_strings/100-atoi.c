@@ -12,7 +12,7 @@ int _atoi(char *s)
 {
 
 unsigned int number = 0;
-unsigned int hint = 1;
+int hint = 1;
 
 while (s++)
 {
