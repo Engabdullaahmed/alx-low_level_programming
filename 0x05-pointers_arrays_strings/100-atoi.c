@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * _atoi - tranform string to int
@@ -14,7 +14,7 @@ int _atoi(char *s)
 unsigned int number = 0;
 int hint = 1;
 
-while (s++)
+while (*s)
 {
 if (*s == '-')
 {
@@ -23,11 +23,12 @@ hint = hint * (-1);
 else if (*s >= '0' && *s <= '9')
 {
 number =  (number * 10) + (*s - '0');
-if (s[number + 1] <= '0' || s[number + 1] >= '9')
+if (*(s + 1) < '0' || *(s + 1) > '9')
 {
 break;
 }
 }
+s++;
 }
 if (hint < 0)
 {
