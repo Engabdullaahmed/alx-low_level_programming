@@ -19,10 +19,10 @@ for (; accept[acceptt] != s[stri]; acceptt++)
 {
 if (accept[acceptt] == '\0')
 {
-return (acceptt);
+return (stri);
 }
 }
 }
-return (acceptt);
+return (stri);
 
 }
