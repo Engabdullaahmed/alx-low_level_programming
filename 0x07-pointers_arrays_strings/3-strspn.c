@@ -10,17 +10,19 @@
 unsigned int _strspn(char *s, char *accept)
 {
 
-unsigned int string;
-unsigned int acceptt;
+unsigned int stri = 0;
+unsigned int acceptt = 0;
 
-for (int string = 0; s[string] != '\0'; string++)
+for (; s[stri] != '\0'; stri++)
 {
-for (int acceptt = 0; accept[acceptt] != s[string]; acceptt++)
+for (; accept[acceptt] != s[stri]; acceptt++)
 {
 if (accept[acceptt] == '\0')
 {
 return (acceptt);
 }
 }
+}
 return (acceptt);
+
 }
