@@ -6,15 +6,15 @@
  * @argv: value of argument
  * Return: 0
  */
-int main(int argc, char argv)
+int main(int argc, char **argv)
 {
 
-int xy;
+int p = 0;
 
 while (argc--)
 {
-printf("%s\n", argv[xy])
-xy++;
+printf("%s\n", argv[p]);
+p++;
 
 }
 
