@@ -7,11 +7,11 @@
  * Return: 0
  */
 
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-(void)argc;
+(void)argv;
 
-printf("%d\n", argv[argc - 1]);
+printf("%d\n", argc - 1);
 
 return (0);
 }
