@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * **alloc_grid - Write a function that returns a pointer to a 2 dimensional array  * of integers
+ * **alloc_grid - Write a function that returns a pointer to 2 dimensional arr
  * @width: array
  * @height: array
  * Return: 0
@@ -32,12 +32,12 @@ while (i--)
 free(arr[i]);
 free(arr);
 return (0);
-}    
+}
 for (j = 0; j < width; j++)
 {
 arr[i][j] = 0;
 }
-    
+
 }
 return (arr);
 }
