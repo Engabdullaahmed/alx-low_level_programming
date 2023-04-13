@@ -11,10 +11,12 @@
 char *str_concat(char *s1, char *s2)
 {
 
+int i = 0;
 int m = strlen(s1);
 int n = strlen(s2);
+char *c;
 
-c = malloc(x + y + 1);
+c = malloc(m + n + 1);
 
 if (!c)
 return (0);
@@ -25,8 +27,8 @@ c[i] = s1[i];
 }
 for (i = 0; s2[i]; i++)
 {
-c[i] = s2[i + x];
+c[i + m] = s2[i];
 }
-c[x + y] = '\0';
+c[n + m] = '\0';
 return (c);
 }
