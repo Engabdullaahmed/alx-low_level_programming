@@ -16,10 +16,8 @@ int m = strlen(s1);
 int n = strlen(s2);
 char *c;
 
-if (s1 == NULL)
-S1 = "";
-if (s2 == NULL);
-s2 = "";
+if (s1 == NULL || s2 == NULL)
+return (NULL);
 
 
 c = malloc(m + n + 1);
