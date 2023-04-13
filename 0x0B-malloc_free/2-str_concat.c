@@ -17,7 +17,7 @@ int n = strlen(s2);
 char *c;
 
 if (s1 == 0 || s2 == 0)
-return (0);
+return (NULL);
 
 c = malloc(m + n + 1);
 
