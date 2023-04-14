@@ -43,7 +43,7 @@ char *ptr;
 
 
 
-if (nmemb == NULL || size == NULL)
+if (nmemb == 0 || size == 0)
 
 return (0);
 
