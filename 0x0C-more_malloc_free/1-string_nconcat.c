@@ -26,6 +26,10 @@ for (length_1 = 0; s1[length_1] != '\0'; length_1++)
 ;
 for (length_2 = 0; s2[length_2] != '\0'; length_2++)
 ;
+
+if (n >= length_2)
+n = length_2;
+
 strin = malloc(length_1 + 1 + n);
 
 if (strin == NULL)
