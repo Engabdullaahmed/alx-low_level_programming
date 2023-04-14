@@ -5,7 +5,7 @@
 /**
  * array_range - make arr
  * @min: minimum value
- * @max: maximum value 
+ * @max: maximum value
  * Return: 1
  */
 
