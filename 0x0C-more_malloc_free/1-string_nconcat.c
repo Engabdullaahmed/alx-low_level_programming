@@ -40,11 +40,12 @@ s1[x] = strin[x];
 for (y = 0; s2[y] != '\0'; y++)
 {
 s2[x] = strin[y];
-x++
+x++;
 }
 
-str[x] = '\0';
-return (str);
+strin[x] = '\0';
+
+return (strin);
 }
 
 
