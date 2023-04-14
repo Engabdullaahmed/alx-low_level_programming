@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 #include "main.h"
 /**
  * *string_nconcat - function contain two string
@@ -28,10 +28,10 @@ for (length_2 = 0; s2[length_2] != '\0'; length_2++)
 ;
 strin = malloc(length_1 + 1 + n);
 
-if (strin == 0)
+if (strin == NULL)
 {
 
-return (0);
+return (NULL);
 }
 
 for (x = 0; s1[x] != '\0'; x++)
