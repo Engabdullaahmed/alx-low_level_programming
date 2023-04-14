@@ -1,6 +1,6 @@
-#include "main.h"
 #include <stdio.h>
 
+#include "main.h"
 /**
  * *string_nconcat - function contain two string
  * @s1: first string
