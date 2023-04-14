@@ -51,5 +51,3 @@ strin[x] = '\0';
 
 return (strin);
 }
-
-
