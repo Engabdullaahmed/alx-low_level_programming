@@ -5,4 +5,4 @@
 
 #define PIE_H 3.14159265359
 
-#endif
+#endif /* _PIE_H */
