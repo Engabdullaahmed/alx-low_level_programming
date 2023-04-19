@@ -1,6 +1,8 @@
-#ifndef _FUNCIION_MACRO_H
-#define _FUNCTION_MACRO_H
+#ifndef function_MACRO_H
+#define function_MACRO_H
+
 
 #define ABS(x) ((x) < 0 ? (-(x)) : (x))
 
-#endif /* _FUNCTION_MACRO_H */
+
+#endif
