@@ -1,4 +1,6 @@
 #include "dog.h"
+#include <stdio.h>
+
 
 /**
  * init_dog - int dog
