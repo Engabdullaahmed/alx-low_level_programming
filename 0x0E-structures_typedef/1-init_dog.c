@@ -1,5 +1,5 @@
 #include "dog.h"
-#include <stdio.h>
+#include <stdlib.h>
 
 
 /**
@@ -20,5 +20,4 @@ d = malloc(sizeof(struct dog));
 d->name = name;
 d->age = age;
 d->owner = owner;
-
 }
