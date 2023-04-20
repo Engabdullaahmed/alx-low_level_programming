@@ -27,7 +27,7 @@ if (f == NULL)
 printf("Error\n");
 exit(99);
 }
-z = f(a, b);
+z = f(x, y);
 printf("%d\n", z);
 return (0);
 }
