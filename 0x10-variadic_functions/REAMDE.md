@@ -1,1 +1,0 @@
-varadic function
