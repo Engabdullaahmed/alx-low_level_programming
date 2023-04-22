@@ -19,12 +19,12 @@ op_t ops[] = {
 {NULL, NULL}
 };
 
-int i;
-
-for (i = 0; i < 5; i++)
+int i = 0;
+while (i < 5)
 {
 if (strcmp(s, ops[i].op) == 0)
 break;
+i++;
 }
 return (ops[i].f);
 }
