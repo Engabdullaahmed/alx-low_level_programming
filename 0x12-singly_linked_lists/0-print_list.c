@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * _strlen - len of string
@@ -28,11 +28,12 @@ return (x);
 size_t print_list(const list_t *h)
 {
 
+size_t q = 0;
 while (h)
 {
 printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
 h = h->next;
-x++;
+q++;
 }
-return (x);
+return (q);
 }
