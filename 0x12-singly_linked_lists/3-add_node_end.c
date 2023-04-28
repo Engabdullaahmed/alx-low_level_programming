@@ -1,18 +1,4 @@
 #include "lists.h"
-/**
- * _strlen - len of string
- * @str: string
- * Return: leng of string
- */
-
-unsigned int _strlen(char *str)
-{
-unsigned int i;
-
-for (i = 0; str[i]; i++)
-;
-return (i);
-}
 
 /**
  * add_node_end - adds a new node
