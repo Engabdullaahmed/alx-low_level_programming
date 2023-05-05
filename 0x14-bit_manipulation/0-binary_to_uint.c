@@ -17,7 +17,7 @@ return (0);
 for (x = 0; b[x]; x++)
 {
 
-if (b[x] != '0' && b[x] != '1')
+if (b[x] < '0' || b[x] > '1')
 return (0);
 
 value_int = 2 * value_int + (b[x] - '0');
