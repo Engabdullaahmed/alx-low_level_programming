@@ -20,8 +20,8 @@ for (x = 63; x >= 0; x--)
 
 current = xor >> x;
 if (current & 1)
-current++;
+counter++;
 }
 
-return (count);
+return (counter);
 }
