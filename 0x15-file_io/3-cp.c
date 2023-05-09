@@ -63,7 +63,7 @@ exit(97);
 
 buf = create_buffer(argv[2]);
 from = open(argv[1], O_RDONLY);
-readf = read(from, buffer, 1024);
+readf = read(from, buf, 1024);
 to = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 do {
@@ -74,8 +74,8 @@ free(buf);
 exit(98);
 }
 
-writef = write(to, buf, rightf);
-if (to == -1 || w == -1)
+writef = write(to, buf, readf);
+if (to == -1 || writef == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 free(buf);
@@ -85,7 +85,7 @@ exit(99);
 readf = read(from, buf, 1024);
 to = open(argv[2], O_WRONLY | O_APPEND);
 
-} while (r > 0);
+} while (readf > 0);
 
 free(buf);
 close_file(from);
