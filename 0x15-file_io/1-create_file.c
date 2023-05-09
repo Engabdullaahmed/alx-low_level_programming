@@ -25,9 +25,8 @@ return (-1);
 if (text_content != NULL)
 {
 for (len = 0; text_content[len]; len++)
+	;
 }
-
-
 openf = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
 writef = write(openf, text_content, len);
 
@@ -40,4 +39,3 @@ close(writef);
 
 return (1);
 }
-
